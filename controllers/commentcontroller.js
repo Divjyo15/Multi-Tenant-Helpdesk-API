@@ -1,5 +1,5 @@
 const Comment = require('../models/comment');
-const Ticket = require('../models/ticket');
+const Ticket = require('../models/Ticket');
 
 const createComment = async (req, res) => {
     try {
