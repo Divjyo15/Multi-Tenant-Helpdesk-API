@@ -2,7 +2,7 @@ const router = require('express').Router();
 const auth = require('../middleware/auth');
 const authorize = require('../middleware/rbac');
 const { createTicket, getTickets, updateTicket, assignTicket, deleteTicket } = require('../controllers/ticketController');
-const { createComment, getComments } = require('../controllers/commentController');
+const { createComment, getComments } = require('../controllers/commentcontroller');
 const ratelimiter = require('../middleware/rateLimiter');
 
 /**
